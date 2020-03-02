@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo3.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+</head>
+<body oncopy="return false" onpaste="return false">
+	<script src="js/ej3.js"></script>
+	<header>
+		<div class="contenedor"> 
+			<input type="checkbox" id="btn-menu">
+			<label for="btn-menu" >
+				<img src="img/javas.png" alt="" height="30" width="30">
+			</label>
+			<nav class="menu">
+				<ul> 
+					<li><a  href="index.html">Inicio</a></li>
+					<li><a href="ejercicio1.html">Ejercicio 1</a></li>
+					<li><a href="ejercicio2.html">Ejercicio 2</a></li>
+					<li><a href="ejercicio3.html">Ejercicio 3</a></li>
+					<li><a href="ejercicio4.html">Ejercicio 4 </a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main> 
+		<div class="exercise3"> 
+			<h1>Ejercicio 3</h1>
+		</div>
+
+	</main>
+	<section>
+		<div class="tab3">
+			<form name="formulario3" method="post">
+				<table border="1" width="600" height="550">
+					<tr> 
+						<th width="400" height="75"> 
+							El sueldo por hora normal de trabajo es de 250 pesos
+						</th>
+						<th width="400"> 
+							El sueldo por hora extra de trabajo es de 500 pesos
+						</th>
+					</tr>
+					<tr>
+						<th width="400" height="100">
+							HORAS DE TRABAJO
+						</th>
+						<th width="315">
+							DINERO RECIBIDO
+						</th>
+					</tr>
+					<tr>
+						<td width="400" height="100"> ¿Cuantas horas trabaja a la semana?</td>
+						<td><input type="text" name="horassem" onkeypress="return validarn(event)"></td>
+					</tr>
+					
+					<tr>
+						<td><input type="button" name="enviar" class="boton" value="Obtener sueldo total" onclick="interes()"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td width="400" height="100">Tu sueldo es de:</td>
+						<td><input type="text" id="sueldoi" class="input_text" readonly="readonly"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</section>
+</body>
+</html>

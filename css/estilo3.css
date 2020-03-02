@@ -1,0 +1,33 @@
+main h1{
+	text-align: center;
+}
+
+.tab3 table{
+	margin: auto;
+}
+
+body{
+	background-color: #C8FFBE;
+}
+
+
+table{
+	background-color: #BA9593;
+	border: 2px solid rgb(46,51,3);
+	
+}
+
+.input_text{
+	border-width: 2px;
+	border-style: solid rgb(20,94,63);
+	color: #053C5E;
+	letter-spacing: 3px;
+	font-family: Verdana;
+	width: 280px; 
+	height:100px;
+}
+
+.boton{
+	background-color: #EDFFAB;
+	font-size: 14px;
+}
